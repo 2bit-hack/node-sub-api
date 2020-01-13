@@ -1,13 +1,14 @@
 # node-sub-api
 
 A [Node.js](https://nodejs.org/en/) RESTful API made using [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), and [Mongoose](https://mongoosejs.com/)
+
 It stores and retrieves YouTube subscriber data
 and supports GET/, GET/:id/, POST/, PATCH/:id/, and DELETE/:id/ routes
 
 ## Schema
 
 ```
-    name: {
+        name: {
 		type: String,
 		required: true,
 	},
